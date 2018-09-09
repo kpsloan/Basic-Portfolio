@@ -12,6 +12,7 @@ header {
 body {
     
     width: 100%;
+    height: 100%;
     background-image: url("images/qbkls.png")
 }
 
@@ -21,12 +22,19 @@ body {
     color: white;
     background: #4aaaa5;
     float: left;
-    padding: 20px;
+    padding: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 175px;
+    font-size: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 175px;
+    font-size: 32px;
     
 }
 
 nav {
-
     float: right;
     padding: 30px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -116,7 +124,19 @@ footer {
 
 p {
     text-align: justify;
+    letter-spacing: 2px;
+    font-size: 14px;
+    line-height: 1.5;
 }
+
+input {
+    border: 1px solid #cccccc;
+    width: 100%;
+
+
+
+
+
 
 a:link {
     text-decoration: none;
