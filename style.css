@@ -1,20 +1,18 @@
-header {
-        
-
+header {     
+    
+    
     font-family: 'Georgia', Times, Times New Roman, serif;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: #ffffff;
     align-self: auto;
     border-bottom: 1px;
-    border-bottom-color: gray;
-    margin: 0px 175px;
-
-    
+    border-bottom-color: gray; 
 }
 
 body {
-    
-    width: 960px;
+
+    width: 100%;
+    height: 100%;
     background-image: url("images/qbkls.png")
 }
 
@@ -24,27 +22,55 @@ body {
     color: white;
     background: #4aaaa5;
     float: left;
-    padding: 20px;
+    padding: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 175px;
+    font-size: 24px;
 }
 
 nav {
-
     float: right;
     padding: 30px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: gray;
     border-bottom: 1px;
     border-bottom-color: gray;
+    margin-right: 130px;
+    margin-bottom: 0px;
     
 }
 
-#first {
+.vl {
+    border-left: 1px solid #dddddd;
+    height: 20px;
+    position: absolute;
+    
 
+}
+
+#vlone {
+    left: 76%;
+    top: 8.5%;
+
+}
+
+#vltwo {
+    left: 82.125%;
+    top: 8.5%;
+
+}
+
+.link {
+    margin-right: 20px;
+}
+
+#first {
     display: block;
     height: 1px;
     border: 0;
     border-top: 2px solid #ccc;
-    margin: 1em 0;
+    margin: 0;
     padding: 0;
 }
 
@@ -53,23 +79,34 @@ nav {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 4px solid #4aaaa5;
+    border-top: 2px solid #ccc;
+    margin: 0px;
+    padding: 0;
+}
+
+#third {
+
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid #4aaaa5;
     margin: 0;
     padding: 0;
     width: 100%
 }
 
-.subheader {
-    
+.subheader {    
+
     color: #4aaaa5;
+    font-size: 24px;
 }
 
 #bio-image {
     width: 200px;
-    height: 200px;
-    padding: 20px;
+    height: 150px;
+    padding: 0px;
     float: left;
-    margin: 0 20px 20px 0;
+    margin: 20px 20px 20px 0;
   }
 
 
@@ -81,29 +118,111 @@ section {
     padding: 20px;
 }
   
-textarea {
-    
+textarea {   
+
     width: 800px; 
     height:200px;
 }
 
 footer {
     text-align: center;
-    background-color: dimgray;
+    background-color: #666666;
     color: white;
+    font-size: 10px;
 }
 
 .box {
 
-    background-color: whitesmoke;
+    background-color: #ffffff;
     text-align: justify;
     margin: 20px 175px;
-    padding: 20px;
+    padding: 10px 20px;
     width: 960px;
+    
 }
 
 p {
     text-align: justify;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 1.75;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+input {
+    border: 1px solid #dddddd;
+    width: 100%;
+    margin: 5px 0px;
+}
+
+#textarea {
+    border: 1px solid #dddddd;
+    width: 100%;
+    margin: 5px 0px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    float: left;
+    width: 100px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    padding: 0px;
+    z-index: 1;
+}
+
+.portfolio {
+    width: 200px;
+    height: 150px;
+    padding: 30px;
+    z-index: 1;
+    position: relative;
+}
+
+.banner {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 17px 20px 20px 20px;
+    height: 20px;
+    width: 160px;
+    position: absolute;
+    z-index: 2;
+    opacity: 80%;
+    vertical-align: middle;
+}
+
+#hangman {
+    left: 17.25%;
+    top: 52.5%;
+}
+
+#rpg {
+    left: 39.5%;
+    top: 52.5%;
+}
+
+#trivia {
+    left: 17.25%;
+    top: 84.5%;
+}
+
+#rutgers {
+    left: 39.5%;
+    top: 84.5%;
+}
+
+#rock {
+    left: 17.25%;
+    top: 116.5%;
 }
 
 a:link {
@@ -140,8 +259,8 @@ body {
     color: whitesmoke;
     background-color: dimgray;
     text-align: center;
-    padding-top: 40px;
-    width: 100%;
-    
-    
+    padding-top: 30px;
+    width: 100%; 
   }
+
+  
