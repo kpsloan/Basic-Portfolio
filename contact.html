@@ -20,42 +20,50 @@
         <br>
         <nav>
             <a class="link" href="index.html">About</a>
+            <div class="vl" id="vlone"></div>
             <a class="link" href="portfolio.html">Portfolio</a>
+            <div class="vl" id="vltwo"></div>
             <a class="link" href="contact.html">Contact</a>
 
         </nav>
     </header>
-        <hr id="first" />
+    <hr id="first" />
     <br>
-    
 
-        <section class="box">
 
-            <h1 class="subheader">Contact</h1>
-            <hr id="second"/>
+    <section class="box">
+
+        <h1 class="subheader">Contact</h1>
+        <hr id="second" />
+        <br>
+
+
+
+        <form id="form" action="/action_page.php">
+            Name
             <br>
+            <input type="text" name="Name" value="">
+            <br>
+            <br>
+            Email
+            <br>
+            <input type="text" name="Email" value="">
+            <br>
+            <br>
+            Message
+            <br>
+            <textarea id="textarea" name="message"></textarea>
+            <br>
+            <br>
+            <input id="submit" type="submit" value="Submit">
+        </form>
+    </section>
 
+    <footer>
+        <hr id="third" />
+        <p id="foot">Copyright ©</p>
 
-
-            <form action="/action_page.php">
-                Name:<br>
-                <input type="text" name="firstname" value="">
-                <br><br> Email:<br>
-                <input type="text" name="lastname" value="">
-                <br><br> Message:
-                <br>
-                <textarea name="message"></textarea>
-                <br>
-                <br>
-                <input type="submit" value="Submit">
-            </form>
-        </section>
-
-        <footer>
-                <hr id="third"/>
-                <p class="footer">Copyright ©</p>
-
-        </footer>
+    </footer>
 
 
 </body>
